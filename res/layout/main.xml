@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="20dp"
+        >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+    <Button
+            android:id="@+id/insertButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="插入数据"
+            android:onClick="clickButtonTitle"
+            />
+    <Button
+            android:id="@+id/analyzeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分析数据"
+            android:onClick="clickButtonTitle"
+            />
+    </LinearLayout>
+    <ListView
+            android:id="@+id/listView_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></ListView>
+</LinearLayout>
+
